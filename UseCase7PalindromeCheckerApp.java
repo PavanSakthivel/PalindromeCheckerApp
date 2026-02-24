@@ -1,12 +1,13 @@
 import java.util.ArrayDeque;
 import java.util.Deque;
+import java.util.Scanner;
 
 public class UseCase7PalindromeCheckerApp {
 
     public static void main(String[] args) {
-
-        
-        String input = "refer";
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Input: ");
+        String input = sc.nextLine();
 
         
         Deque<Character> deque = new ArrayDeque<>();
